@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Maulick/IdeaProjects/seleniumGrid">
+        <classes>
+            <class name="tests.one">
+                <methods>
+                    <include name="testOne"/>
+                </methods>
+            </class>
+            <class name="tests.three">
+                <methods>
+                    <include name="testThree"/>
+                </methods>
+            </class>
+            <class name="tests.two">
+                <methods>
+                    <include name="testTwo"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
